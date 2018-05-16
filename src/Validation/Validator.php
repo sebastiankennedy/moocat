@@ -18,7 +18,7 @@ class Validator
      *
      * @return string
      */
-    public function validateMultipleLoginFields(string $value, string $defaultField = 'account'): string
+    public static function validateMultipleLoginFields(string $value, string $defaultField = 'account'): string
     {
         $map = [
             'email' => ValidationRules::email($value),
