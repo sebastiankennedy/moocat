@@ -11,7 +11,7 @@ namespace MooCat\Validation;
 class ValidationRules
 {
     /**
-     * 验证中国地区手机号码
+     * 验证手机号码
      *
      * @param string $number
      *
