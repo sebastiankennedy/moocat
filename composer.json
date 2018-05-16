@@ -1,0 +1,29 @@
+{
+    "name": "sebastianKennedy/moocat",
+    "description": "Sebastian Kennedy Love Moocat.",
+    "keywords": ["sebastian kennedy", "moocat", "library"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Kennedy",
+            "email": "sebastiankennedy@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MooCat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
